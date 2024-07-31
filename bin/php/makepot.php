@@ -8,6 +8,9 @@ if ( ! defined( 'STDERR' ) ) {
 }
 
 class MakePOT {
+
+	private $extractor;
+
 	public $max_header_lines = 30;
 
 	public $projects = array(
